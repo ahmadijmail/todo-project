@@ -1,5 +1,5 @@
 
-var username = prompt("Enter your name:");
+/*var username = prompt("Enter your name:");
 console.log(username);
 
 var gender = prompt("Enter your Gender:");
@@ -13,4 +13,6 @@ console.log(useranswer);
 if (useranswer == false) {
 if (gender == "male") {alert("Hello Mr " + username ) ;}
 else if (gender == "female") { alert("Hello MS " + username) ; } 
-else {alert("Hello " + username)} ;} 
+else {alert("Hello " + username)} ;} */
+
+
