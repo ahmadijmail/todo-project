@@ -17,13 +17,14 @@ if (Age <= 0 ) {
 
 
 
-var useranswer = confirm("Skip Welcome Message") ;
+var useranswer = confirm("Skip Welcome Message ?") ;
 console.log(useranswer);
 
 if (useranswer == false) {
 if (gender == "male") {
     alert("Hello Mr " + username ) ;
     }
-     else { alert("Hello MS " + username) ;  
+     else if (gender == "female") { alert("Hello MS " + username) ;  
 } 
-}
+else {alert("Hello " + username)} ;
+} 
